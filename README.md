@@ -1,6 +1,6 @@
 # live-workflow-plugins
 
-Three **free**, local Cursor plugins for live workflows. No Stripe, no paid skills, no marketplace submit in this repo.
+Three **free**, local Cursor plugins for live workflows, published by **greymattr**. No Stripe, no paid skills.
 
 | Plugin | What it does |
 | --- | --- |

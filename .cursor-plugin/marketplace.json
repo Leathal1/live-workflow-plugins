@@ -1,10 +1,26 @@
 {
   "name": "live-workflow-plugins",
-  "owner": { "name": "Steven Leath" },
-  "metadata": { "description": "Small Cursor plugins for live workflows: Mattermost, CISA KEV, Obsidian Local REST." },
+  "owner": {
+    "name": "greymattr"
+  },
+  "metadata": {
+    "description": "greymattr Cursor plugins for live workflows: Mattermost, CISA KEV, Obsidian Local REST."
+  },
   "plugins": [
-    { "name": "mattermost", "source": "mattermost", "description": "Mattermost REST API v4: list teams/channels, read and create posts." },
-    { "name": "cisa-kev", "source": "cisa-kev", "description": "CISA Known Exploited Vulnerabilities catalog plus optional OSV query." },
-    { "name": "obsidian-local-rest", "source": "obsidian-local-rest", "description": "Obsidian Local REST API: list, read, search, and append notes." }
+    {
+      "name": "mattermost",
+      "source": "mattermost",
+      "description": "Mattermost REST API v4: list teams/channels, read and create posts."
+    },
+    {
+      "name": "cisa-kev",
+      "source": "cisa-kev",
+      "description": "CISA Known Exploited Vulnerabilities catalog plus optional OSV query."
+    },
+    {
+      "name": "obsidian-local-rest",
+      "source": "obsidian-local-rest",
+      "description": "Obsidian Local REST API: list, read, search, and append notes."
+    }
   ]
 }

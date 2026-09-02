@@ -2,7 +2,9 @@
   "name": "obsidian-local-rest",
   "version": "0.1.0",
   "description": "Community client for Obsidian Local REST API: list, read, search, and append notes. Not affiliated with Obsidian or the Local REST API plugin author.",
-  "author": { "name": "Steven Leath" },
+  "author": {
+    "name": "greymattr"
+  },
   "variables": {
     "type": "object",
     "properties": {
@@ -14,9 +16,12 @@
       "OBSIDIAN_API_KEY": {
         "type": "string",
         "title": "Obsidian API key",
-        "description": "API key from Obsidian Settings → Local REST API. Sent as Authorization: Bearer. The plugin does not store this value."
+        "description": "API key from Obsidian Settings \u2192 Local REST API. Sent as Authorization: Bearer. The plugin does not store this value."
       }
     },
-    "required": ["OBSIDIAN_API_URL", "OBSIDIAN_API_KEY"]
+    "required": [
+      "OBSIDIAN_API_URL",
+      "OBSIDIAN_API_KEY"
+    ]
   }
 }
