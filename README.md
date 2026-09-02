@@ -1,6 +1,8 @@
 # live-workflow-plugins
 
-Three **free**, local Cursor plugins for live workflows, published by **greymattr**. No Stripe, no paid skills.
+Three **free** Cursor plugins for Mattermost, the CISA Known Exploited Vulnerabilities catalog, and Obsidian Local REST. Published by **greymattr**. Not affiliated with Mattermost, CISA, or Obsidian.
+
+Logotype: [assets/logo.png](assets/logo.png) (1:1 plate).
 
 | Plugin | What it does |
 | --- | --- |
