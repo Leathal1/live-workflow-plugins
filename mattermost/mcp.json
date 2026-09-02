@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mattermost": {
+      "command": "node",
+      "args": ["server.mjs"],
+      "env": {
+        "MATTERMOST_URL": "${MATTERMOST_URL}",
+        "MATTERMOST_TOKEN": "${MATTERMOST_TOKEN}"
+      }
+    }
+  }
+}

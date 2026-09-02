@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "obsidian-local-rest": {
+      "command": "node",
+      "args": ["server.mjs"],
+      "env": {
+        "OBSIDIAN_API_URL": "${OBSIDIAN_API_URL}",
+        "OBSIDIAN_API_KEY": "${OBSIDIAN_API_KEY}"
+      }
+    }
+  }
+}

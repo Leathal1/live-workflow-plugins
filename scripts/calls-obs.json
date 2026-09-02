@@ -1,0 +1,6 @@
+[
+  {"name": "list_notes", "arguments": {}},
+  {"name": "get_note", "arguments": {"path": "Welcome.md"}},
+  {"name": "search_vault", "arguments": {"query": "Welcome"}},
+  {"name": "append_note", "arguments": {"path": "Welcome.md", "content": "appended-by-prove\n"}}
+]

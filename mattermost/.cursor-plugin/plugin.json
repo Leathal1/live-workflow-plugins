@@ -1,0 +1,22 @@
+{
+  "name": "mattermost",
+  "version": "0.1.0",
+  "description": "Community Mattermost REST API v4 client: list teams and channels, read posts, create posts. Not affiliated with Mattermost, Inc.",
+  "author": { "name": "Steven Leath" },
+  "variables": {
+    "type": "object",
+    "properties": {
+      "MATTERMOST_URL": {
+        "type": "string",
+        "title": "Mattermost URL",
+        "description": "Origin only (scheme + host + optional port). No trailing slash or /api path. Example: https://chat.example.com"
+      },
+      "MATTERMOST_TOKEN": {
+        "type": "string",
+        "title": "Mattermost token",
+        "description": "Bot token or personal access token. Sent as Authorization: Bearer. The plugin does not store this value."
+      }
+    },
+    "required": ["MATTERMOST_URL", "MATTERMOST_TOKEN"]
+  }
+}

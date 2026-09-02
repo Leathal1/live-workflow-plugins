@@ -1,0 +1,16 @@
+[
+  {
+    "name": "list_kev",
+    "arguments": {
+      "vendor": "Microsoft"
+    }
+  },
+  {
+    "name": "osv_query",
+    "arguments": {
+      "package": "express",
+      "version": "4.17.1",
+      "ecosystem": "npm"
+    }
+  }
+]

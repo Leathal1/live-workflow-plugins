@@ -1,0 +1,6 @@
+[
+  {"name": "list_teams", "arguments": {}},
+  {"name": "list_channels", "arguments": {}},
+  {"name": "get_channel_posts", "arguments": {"channel_id": "c1"}},
+  {"name": "create_post", "arguments": {"channel_id": "c1", "message": "prove ping"}}
+]

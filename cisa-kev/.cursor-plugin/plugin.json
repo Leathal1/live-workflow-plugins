@@ -1,0 +1,6 @@
+{
+  "name": "cisa-kev",
+  "version": "0.1.0",
+  "description": "Community client for the public CISA Known Exploited Vulnerabilities catalog and optional OSV queries. Not affiliated with CISA.",
+  "author": { "name": "Steven Leath" }
+}
