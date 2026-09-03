@@ -1,0 +1,22 @@
+{
+  "name": "fly-io",
+  "version": "0.1.0",
+  "description": "Wraps official flyctl MCP (flyctl mcp server): apps, machines, logs, certs, secrets, volumes, status, orgs, platform. Requires flyctl on PATH. Not affiliated with Fly.io Inc.",
+  "author": {
+    "name": "greymattr"
+  },
+  "variables": {
+    "type": "object",
+    "properties": {
+      "FLY_ACCESS_TOKEN": {
+        "type": "string",
+        "title": "Fly access token",
+        "description": "Deploy token from Fly dashboard. Set in Cursor plugin variables; not committed. Auth for flyctl MCP via FLY_ACCESS_TOKEN env (or flyctl --access-token)."
+      }
+    },
+    "required": [
+      "FLY_ACCESS_TOKEN"
+    ]
+  },
+  "license": "MIT"
+}

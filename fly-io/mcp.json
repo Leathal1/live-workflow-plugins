@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "fly-io": {
+      "command": "flyctl",
+      "args": ["mcp", "server"],
+      "env": {
+        "FLY_ACCESS_TOKEN": "${FLY_ACCESS_TOKEN}"
+      }
+    }
+  }
+}

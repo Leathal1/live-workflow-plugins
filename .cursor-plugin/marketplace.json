@@ -4,7 +4,7 @@
     "name": "greymattr"
   },
   "metadata": {
-    "description": "greymattr Cursor plugins for live workflows: Mattermost, CISA KEV, Obsidian Local REST."
+    "description": "greymattr Cursor plugins: Mattermost, CISA KEV, Obsidian Local REST, Fly.io."
   },
   "plugins": [
     {
@@ -21,6 +21,11 @@
       "name": "obsidian-local-rest",
       "source": "obsidian-local-rest",
       "description": "Obsidian Local REST API: list, read, search, and append notes."
+    },
+    {
+      "name": "fly-io",
+      "source": "fly-io",
+      "description": "Official flyctl MCP server: apps, machines, logs, certs, secrets, volumes."
     }
   ]
 }
